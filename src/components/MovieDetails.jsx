@@ -82,7 +82,7 @@ const MovieDetails = () => {
             <div 
               className="relative h-96 rounded-3xl overflow-hidden mb-8 shadow-2xl"
               style={{
-                backgroundImage: `linear-linear(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(https://image.tmdb.org/t/p/w1280${movie.backdrop_path})`,
+                backgroundImage: ` url(https://image.tmdb.org/t/p/w1280${movie.backdrop_path})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat'
